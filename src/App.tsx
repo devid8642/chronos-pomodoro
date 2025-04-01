@@ -6,7 +6,7 @@ import "./styles/global.css";
 export function App() {
     return (
         <>
-            <Heading />
+            <Heading attr='teste de atributo'>teste</Heading>
             <p>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                 Excepturi repudiandae cumque illo ea deleniti ex velit placeat,
