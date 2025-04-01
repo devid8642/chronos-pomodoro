@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      lucide-react:
+        specifier: ^0.486.0
+        version: 0.486.0(react@19.0.0)
       react:
         specifier: ^19.0.0
         version: 19.0.0
@@ -763,6 +766,11 @@ packages:
 
   lodash.merge@4.6.2:
     resolution: {integrity: sha512-0KpjqXRVvrYyCsX1swR/XTK0va6VQkQM6MNo7PqW77ByjAhoARA8EfrP1N4+KlKj8YS0ZUCtRT/YUuhyYDujIQ==}
+
+  lucide-react@0.486.0:
+    resolution: {integrity: sha512-xWop/wMsC1ikiEVLZrxXjPKw4vU/eAip33G2mZHgbWnr4Nr5Rt4Vx4s/q1D3B/rQVbxjOuqASkEZcUxDEKzecw==}
+    peerDependencies:
+      react: ^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0
 
   merge2@1.4.1:
     resolution: {integrity: sha512-8q7VEgMJW4J8tcfVPy8g09NcQwZdbwFEqhe/WZkoIzjn/3TGDwtOCYtXGxA3O8tPzpczCCDgv+P2P5y00ZJOOg==}
@@ -1595,6 +1603,10 @@ snapshots:
       p-locate: 5.0.0
 
   lodash.merge@4.6.2: {}
+
+  lucide-react@0.486.0(react@19.0.0):
+    dependencies:
+      react: 19.0.0
 
   merge2@1.4.1: {}
 
