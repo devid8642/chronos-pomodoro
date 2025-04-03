@@ -2,17 +2,14 @@ import "./styles/theme.css";
 import "./styles/global.css";
 
 import { Container } from "./components/Container";
-import { Heading } from "./components/Heading";
+// import { Heading } from "./components/Heading";
+import { Logo } from "./components/Logo";
 
 export function App() {
     return (
         <>
             <Container>
-                <Heading>Testando o heading 1!</Heading>
-            </Container>
-
-            <Container>
-                <Heading>Testando o heading 2!</Heading>
+                <Logo />
             </Container>
         </>
     );
