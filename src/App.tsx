@@ -2,10 +2,8 @@ import "./styles/theme.css";
 import "./styles/global.css";
 
 import { Container } from "./components/Container";
-// import { Heading } from "./components/Heading";
 import { Logo } from "./components/Logo";
-import { MenuItem } from "./components/MenuItem";
-import { HomeIcon } from "lucide-react";
+import { Menu } from "./components/Menu";
 
 export function App() {
     return (
@@ -15,9 +13,7 @@ export function App() {
             </Container>
 
             <Container>
-                <MenuItem>
-                    <HomeIcon />
-                </MenuItem>
+                <Menu />
             </Container>
         </>
     );
