@@ -1,0 +1,16 @@
+.menu-item-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.8rem;
+    color: var(--text-over-primary);
+    text-decoration: none;
+    transition: filter 0.1s ease-in-out;
+    background-color: var(--primary);
+    width: 5rem;
+    height: 5rem;
+}
+
+.menu-item-link:hover {
+    filter: brightness(80%);
+}
