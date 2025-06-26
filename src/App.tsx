@@ -6,6 +6,7 @@ import { Logo } from "./components/Logo";
 import { Menu } from "./components/Menu";
 import { CountDown } from "./components/CountDown";
 import { InputContainer } from "./components/InputContainer";
+import { Cycles } from "./components/Cycles";
 
 export function App() {
     return (
@@ -23,12 +24,20 @@ export function App() {
             </Container>
 
             <Container>
-                <InputContainer
-                    label_text="Nome do projeto"
-                    input_type="text"
-                    input_id="project-name"
-                    input_placeholder="Digite o nome do projeto"
-                />
+                <form action="#" className="form">
+                    <div className="formRow">
+                        <InputContainer
+                            label_text="Nome do projeto"
+                            input_type="text"
+                            input_id="project-name"
+                            input_placeholder="Digite o nome do projeto"
+                        />
+                    </div>
+
+                    <div className="formRow">
+                        <Cycles />
+                    </div>
+                </form>
             </Container>
         </>
     );
