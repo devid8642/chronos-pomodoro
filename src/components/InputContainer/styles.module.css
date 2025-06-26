@@ -1,0 +1,34 @@
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.input-field {
+    background-color: var(--gray-900);
+    padding: 0.8rem;
+    width: 25rem;
+    outline: none;
+    border: none;
+    border-bottom: solid var(--primary) 0.2rem;
+    transition: border 0.1s ease-in-out;
+    text-align: center;
+    color: var(--text-default);
+}
+
+.input-field:focus {
+    border: solid var(--primary) 0.2rem;
+    border-radius: 0.8rem;
+}
+
+.input-field::placeholder {
+    text-align: center;
+    color: var(--text-muted);
+}
+
+.input-field:disabled {
+  border-bottom: 0.2rem solid var(--disabled);
+  color: var(--text-muted);
+}
