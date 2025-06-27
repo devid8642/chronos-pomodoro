@@ -9,6 +9,7 @@ import { InputContainer } from "./components/InputContainer";
 import { Cycles } from "./components/Cycles";
 import { Button } from "./components/Button";
 import { PlayCircle, StopCircle } from "lucide-react";
+import { Footer } from "./components/Footer";
 
 export function App() {
     return (
@@ -59,6 +60,10 @@ export function App() {
                         />
                     </div>
                 </form>
+            </Container>
+
+            <Container>
+                <Footer />
             </Container>
         </>
     );
